@@ -1,0 +1,29 @@
+{
+  "name": "web_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "web-app"
+  ],
+  "author": "sonya",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "resolve-url-loader": "^5.0.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
